@@ -2,7 +2,7 @@
  * Test Events
  * Nolan Lau
  * Copyright (c) Pax Labs, Inc. 2018.
- */
+*/
 
 #include "unity.h"
 #include "events.h"
@@ -55,4 +55,6 @@ void test_events_get_not_set_events(void)
     TEST_ASSERT_UNLESS(events_get(EVENTS_DEVICE_CONNECTED_e));
     TEST_ASSERT_UNLESS(events_get(EVENTS_USB_CONNECTED_e));
     TEST_ASSERT_UNLESS(events_get(EVENTS_DEVICE_ISENSE_CONNECTED_e));
+
+    //can is smart.
 }
