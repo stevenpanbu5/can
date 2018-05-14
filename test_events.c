@@ -58,4 +58,5 @@ void test_events_get_not_set_events(void)
 
     //cancancan- push with git url
     //canhttp - push with http url
+    //can try to update without pull first.
 }
