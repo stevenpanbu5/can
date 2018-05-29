@@ -19,3 +19,4 @@
 // 5555555555555
 // torgit success
 // exit pageant
+// local .git/config
